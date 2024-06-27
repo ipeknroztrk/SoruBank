@@ -1,0 +1,10 @@
+﻿/* App.css */
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ekran yüksekliği kadar genişlik */
+    background-color: #f0f0f0; /* Arka plan rengi */
+    font-family: Arial, sans-serif; /* Font ailesi */
+}

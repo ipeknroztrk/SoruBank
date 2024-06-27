@@ -1,0 +1,219 @@
+﻿body {
+    font-family: 'Cambria', 'Coquin', 'Georgia', 'Times', 'Times New Roman', serif;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.home-background {
+    display: none;
+}
+
+.carousel-container {
+    margin-top: 150px;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-video-container,
+.carousel-image-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.carousel-video,
+.teacher-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    color: purple;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.carousel:hover .carousel-overlay {
+    opacity: 1;
+}
+
+.carousel-controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+    z-index: 20;
+}
+
+.control-icon {
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+    .control-icon:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+/* Öğretmen Kartları */
+.teacher-card {
+    margin-bottom: 10px;
+    margin-top: 70px;
+    padding: 20px;
+    background: #f0f0f8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: 250px;
+    height: 300px;
+    z-index: 10;
+    background-image: url('../assets/images/footer.jpg');
+}
+
+.teacher-avatar {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    z-index: 5;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid white;
+    background: white;
+}
+
+    .teacher-avatar img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+.teacher-info {
+    padding: 16px;
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;
+}
+
+.teacher-name {
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+    font-family: 'Cambria', 'Coquin', 'Georgia', 'Times', 'Times New Roman', serif;
+}
+
+.teacher-location {
+    margin-bottom: 8px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.teacher-subject {
+    margin-bottom: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.home-card {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #f0f0f8;
+    background-image: url('../assets/images/foto5.jpg');
+    transition: all 0.3s;
+    border-radius: 10px;
+    z-index: 1;
+    margin-bottom: 40px;
+}
+
+    .home-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+.card-icon {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    width: 60px;
+    height: 60px;
+    background-color: #5f3d72;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 24px;
+    z-index: 20;
+}
+
+.contact-info .ant-input,
+.contact-info .ant-input-textarea {
+    margin-bottom: 16px;
+}
+
+.contact-info .ant-btn-primary {
+    background-color: #722ed1;
+    border-color: #722ed1;
+}
+
+    .contact-info .ant-btn-primary:hover,
+    .contact-info .ant-btn-primary:focus {
+        background-color: #531dab;
+        border-color: #531dab;
+    }
+
+.map-section h2,
+.contact-info h2,
+.title {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+    font-family: 'Cambria', 'Coquin', 'Georgia', 'Times', 'Times New Roman', serif;
+}
+
+.title {
+    text-align: center;
+    margin: 40px 0;
+    padding: 20px 0;
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    border-bottom: 2px solid #dddddd;
+}

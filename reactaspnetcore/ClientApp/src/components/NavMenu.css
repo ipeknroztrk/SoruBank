@@ -1,0 +1,49 @@
+﻿.header-area {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: top 0.3s;
+    z-index: 1000;
+}
+
+.nav-hidden {
+    top: -100px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.navbar {
+    background-color: rgba(158, 73, 226, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.navbar-nav .nav-link {
+    border-radius: 20px;
+    color: white;
+    transition: background-color 0.7s ease;
+}
+
+    .navbar-nav .nav-link:hover {
+        background-color: rgba(138, 43, 226, 0.8);
+        border-radius: 20px;
+    }
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+@media (max-width: 576px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+}

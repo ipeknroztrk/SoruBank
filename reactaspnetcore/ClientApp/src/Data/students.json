@@ -1,0 +1,118 @@
+﻿{
+  "classes": [
+    {
+      "id": 1,
+      "name": "Bilgisayar Mühendisliği 1. Sınıf",
+      "students": [
+        {
+          "id": 1,
+          "name": "Ahmet Yılmaz",
+          "image": "student5.jpg",
+          "exams": [
+            {
+              "examCode": "MAT101",
+              "correctAnswers": 8,
+              "wrongAnswers": 2,
+              "totalScore": 80
+            },
+            {
+              "examCode": "ELK203",
+              "correctAnswers": 4,
+              "wrongAnswers": 1,
+              "totalScore": 40
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Ayşe Kaya",
+          "image": "student2.jpg",
+          "exams": [
+            {
+              "examCode": "BİL202",
+              "correctAnswers": 7,
+              "wrongAnswers": 1,
+              "totalScore": 70
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Mehmet Demir",
+          "image": "student3.jpg",
+          "exams": [
+            {
+              "examCode": "BIO101",
+              "correctAnswers": 16,
+              "wrongAnswers": 4,
+              "totalScore": 80
+            },
+            {
+              "examCode": "VTYS2",
+              "correctAnswers": 3,
+              "wrongAnswers": 1,
+              "totalScore": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bilgisayar Mühendisliği 2. Sınıf",
+      "students": [
+        {
+          "id": 5,
+          "name": "Selin Yılmaz",
+          "image": "student1.jpg",
+          "exams": [
+            {
+              "examCode": "MAT101",
+              "correctAnswers": 9,
+              "wrongAnswers": 1,
+              "totalScore": 90
+            },
+            {
+              "examCode": "BİL202",
+              "correctAnswers": 6,
+              "wrongAnswers": 2,
+              "totalScore": 60
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Ahmet Yıldız",
+          "image": "student7.jpg",
+          "exams": [
+            {
+              "examCode": "BİL202",
+              "correctAnswers": 4,
+              "wrongAnswers": 4,
+              "totalScore": 40
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Merve Demir",
+          "image": "student6.jpg",
+          "exams": [
+            {
+              "examCode": "VTYS2",
+              "correctAnswers": 4,
+              "wrongAnswers": 0,
+              "totalScore": 80
+            },
+            {
+              "examCode": "BİL202",
+              "correctAnswers": 7,
+              "wrongAnswers": 1,
+              "totalScore": 70
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

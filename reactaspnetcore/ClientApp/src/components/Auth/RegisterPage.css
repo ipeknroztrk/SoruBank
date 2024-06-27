@@ -1,0 +1,50 @@
+﻿/* RegisterPage.css */
+.register-container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5; /* Arka plan rengi */
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.register-form-container {
+    margin-top:150px;
+    margin-bottom:40px;
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff; /* Beyaz arka plan */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölgelendirme */
+}
+
+.register-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333; /* Koyu gri metin rengi */
+}
+
+.register-submit-button {
+    width: 100%;
+    height: 35px; /* Buton yüksekliği */
+    border-radius: 4px; /* Köşe yuvarlama */
+    background-color: #5f3d72; /* Normal durumda koyu mor ton */
+    border: none; /* Çerçeve kaldırıldı */
+    color: white; /* Beyaz yazı rengi */
+    font-weight: bold;
+    font-size: 16px;
+    transition: background 0.3s, box-shadow 0.3s;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+    .register-submit-button:hover {
+        background: #9575CD; /* Hover durumunda daha açık mor ton */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hafif gölgelendirme */
+    }
+
+    .register-submit-button:active {
+        background: #512DA8; /* Tıklama durumunda tekrar koyu mor ton */
+        box-shadow: none; /* Tıklama anında gölgeyi kaldırma */
+    }
