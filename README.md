@@ -1,17 +1,17 @@
-Soru Bankası Projesi
+📝 Soru Bankası Projesi
 Bu proje, React.js ve .NET Core kullanılarak geliştirilmiş bir soru bankası sistemidir. Öğretmenlerin sınav ekleme, silme, sınav listelerini ve sınav detaylarını görüntüleme işlemlerini yapabilmesini sağlar. Ayrıca, öğrencinin üzerine tıklayarak hangi sınavlara girdiği ve doğru-yanlış sayısını görüntüleyebilirler. Proje PostgreSQL veritabanı kullanılarak geliştirilmiştir ve code-first migration'lar oluşturulmuştur.
 
-Özellikler
-Öğretmenler için sınav ekleme ve silme işlemleri
-Sınav listesini görüntüleme
-Sınav detaylarını görüntüleme
-Öğrenci performansını görüntüleme (girdiği sınavlar ve doğru-yanlış sayıları)
-Teknolojiler
+✨ Özellikler
+🖊️ Öğretmenler için sınav ekleme ve silme işlemleri
+📋 Sınav listesini görüntüleme
+🔍 Sınav detaylarını görüntüleme
+📊 Öğrenci performansını görüntüleme (girdiği sınavlar ve doğru-yanlış sayıları)
+💻 Teknolojiler
 Frontend: React.js
 Backend: .NET Core
 Veritabanı: PostgreSQL
 ORM: Entity Framework Core (Code-First)
-Kurulum
+🚀 Kurulum
 Gereksinimler
 .NET Core SDK
 Node.js ve npm
@@ -41,10 +41,11 @@ Frontend'i başlatın:
 bash
 Kodu kopyala
 npm start
-Kullanım
+📚 Kullanım
 Öğretmenler, sisteme giriş yaparak sınav ekleyebilir, silebilir ve mevcut sınavları görüntüleyebilir.
 Öğrencinin üzerine tıklayarak, öğrencinin girdiği sınavları ve doğru-yanlış sayılarını görüntüleyebilirsiniz.
-Katkıda Bulunma
+🤝 Katkıda Bulunma
+Katkıda bulunmak isterseniz, lütfen bir pull request gönderin veya bir issue açın.
 Katkıda bulunmak isterseniz, lütfen bir pull request gönderin veya bir issue açın.
 <img width="1431" alt="Ekran Resmi 2024-06-27 11 17 29" src="https://github.com/ipeknroztrk/SoruBank/assets/114228895/67b60820-d3f0-4203-a15c-b4e0443ecf58">
 <img width="1436" alt="Ekran Resmi 2024-06-27 11 17 40" src="https://github.com/ipeknroztrk/SoruBank/assets/114228895/fe42a289-b6df-44c6-8eac-40fb3eb9a69a">
